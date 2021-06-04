@@ -1,0 +1,20 @@
+.root {
+    height: 48px;
+    padding: 16px 30px;
+    border-radius: 150px;
+    border: 0;
+}
+
+.color-primary {
+    background-image: radial-gradient(
+        90.83% 90.83% at 0% 23.33%,
+        #454ADC 0%, #6CE4F1 100%
+    );
+}
+
+.color-secondary {
+    background-image: radial-gradient(
+        90.83% 90.83% at 0% 23.33%,
+        #FF1846 0%, #FAB33A 100%
+    );
+}

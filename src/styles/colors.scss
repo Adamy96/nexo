@@ -1,20 +1,5 @@
 :root {
-    // Example
-    --color-black: #070A1B;
-    --color-purple-dark: #141729;
-    --color-pink: #FE6C6C;
-    --color-green-light: #69F5A8;
-    --color-white: #FCFCFC;
-    --color-white-5: #FCFCFC0D;
-    --color-grey: #8D8F98;
-
-    .dark-theme {
-        --color-bg: var(--color-black);
-        --color-bg-light: var(--color-purple-dark);
-        --color-success: var(--color-green-light);
-        --color-error: var(--color-pink);
-        --color-text: var(--color-white);
-        --color-text-dark: var(--color-grey);
-        --color-line: var(--color-white-5);
-    }
+    --color-primary: #454ADC;
+    --color-light: #FBFBFF;
+    --color-dark: #4B4C6A;
 }

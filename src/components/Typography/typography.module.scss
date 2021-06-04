@@ -1,0 +1,70 @@
+.root {
+    color: var(--color-dark);
+    display: inline-block;
+}
+
+// VARIANTS
+.variant-h1 {
+    font-size: var(--font-big-size);
+    font-weight: var(--font-bold-weight);
+}
+
+.variant-body1 {
+    font-size: var(--font-xx-small-size);
+    font-weight: var(--font-bold-weight);
+}
+
+.variant-body2 {
+    font-size: var(--font-xx-small-size);
+    font-weight: var(--font-regular-weight);
+}
+
+.variant-body3 {
+    font-size: var(--font-xxx-small-size);
+    font-weight: var(--font-bold-weight);
+}
+
+.variant-body4 {
+    font-size: var(--font-xxx-small-size);
+    font-weight: var(--font-regular-weight);
+}
+
+.variant-title {
+    font-size: var(--font-medium-size);
+    font-weight: var(--font-bold-weight);
+}
+
+.variant-subtitle {
+    font-size: var(--font-medium-size);
+    font-weight: var(--font-regular-weight);
+}
+
+// FONT FAMILIES
+.ffSecondary {
+    font-family: var(--font-secundary-family);
+}
+
+// COLORS
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-light {
+    color: var(--color-light);
+}
+
+// SPACING
+.spacing-small {
+    letter-spacing: 0.15rem;
+}
+
+// UNDERLINE
+.underline {
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(
+        to right,
+        var(--color-primary),
+        transparent
+    );
+}

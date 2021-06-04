@@ -1,0 +1,19 @@
+.root {
+    position: relative;
+
+    .splashLeft {
+        position: absolute;
+        top: 440px;
+    }
+
+    .splashRight {
+        position: absolute;
+        top: 906px;
+        right: 0;
+    }
+
+    .infoContainer {
+        margin-top: 35px;
+        padding: var(--padding-page);
+    }
+}

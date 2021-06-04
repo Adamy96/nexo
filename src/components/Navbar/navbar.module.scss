@@ -1,0 +1,20 @@
+.root {
+    height: var(--height-navbar);
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: var(--color-light);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    .loginBtn {
+        color: var(--color-blue);
+        font-size: var(--font-xxxx-small-size);
+        font-weight: var(--font-xbold-weight);
+        background-color: transparent;
+        border: 0;
+    }
+}
