@@ -1,9 +1,29 @@
 .root {
-    .title {
+    .title, .titleContainer {
         display: inline-block;
     }
 
-    .description {
-
+    .underline {
+        height: 1px;
+        width: 100%;
+        background-image: linear-gradient(
+            to right,
+            var(--color-primary),
+            transparent
+        );
     }
+
+    // .align {
+    //     &-left {
+    //         margin-right: auto;
+    //     }
+
+    //     &-center {
+    //         margin: 0 auto;
+    //     }
+
+    //     &-right {
+    //         margin-left: auto;
+    //     }
+    // }
 }

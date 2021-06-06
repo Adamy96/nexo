@@ -1,6 +1,5 @@
 .root {
     color: var(--color-dark);
-    display: inline-block;
 }
 
 // VARIANTS
@@ -56,15 +55,4 @@
 // SPACING
 .spacing-small {
     letter-spacing: 0.15rem;
-}
-
-// UNDERLINE
-.underline {
-    height: 1px;
-    width: 100%;
-    background-image: linear-gradient(
-        to right,
-        var(--color-primary),
-        transparent
-    );
 }

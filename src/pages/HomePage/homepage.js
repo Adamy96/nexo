@@ -20,6 +20,7 @@ const Homepage = () => {
                 <InfoBlock
                     title='O lugar ideal'
                     description={'As melhores empresas reunidas com o mesmo propósito. Te achar!'}
+                    align='right'
                 />
             </section>
             

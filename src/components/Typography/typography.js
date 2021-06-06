@@ -21,25 +21,21 @@ const Typography = ({ variant, classes, color, children, secondary, spacing, und
     const colorClass = color ? defaultClasses[`color-${color}`] : null;
     const fontFamilyClass = secondary ? defaultClasses.ffSecondary : null;
     const letterSpacingClass = spacing ? defaultClasses[`spacing-${spacing}`] : null;
-    const underlineClass = underline ? defaultClasses.underline : null;
 
     return (
-        <div className={defaultClasses.root}>
-            <Component
-                className={`
-                    ${variantClass}
-                    ${colorClass}
-                    ${fontFamilyClass}
-                    ${letterSpacingClass}
-                    
-                    ${classes}
-                `}
-                {...props}
-            >
-                { children }
-            </Component>
-            <div className={underlineClass}></div>
-        </div>
+        <Component
+            className={`
+                ${defaultClasses.root}
+                ${variantClass}
+                ${colorClass}
+                ${fontFamilyClass}
+                ${letterSpacingClass}
+                ${classes}
+            `}
+            {...props}
+        >
+            { children }
+        </Component>
     )
 }
 
