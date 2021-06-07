@@ -8,6 +8,7 @@ import Header from '@components/Header';
 import InfoBlock from '@components/InfoBlock';
 
 import defaultClasses from './homepage.module.scss';
+import infoBlockData from './infoBlockData';
 
 const Homepage = () => {
     return (
@@ -17,11 +18,14 @@ const Homepage = () => {
             <Navbar />
             <Header />
             <section className={defaultClasses.infoContainer}>
-                <InfoBlock
-                    title='O lugar ideal'
-                    description={'As melhores empresas reunidas com o mesmo propósito. Te achar!'}
-                    align='right'
-                />
+                {infoBlockData.map(data => (
+                    <InfoBlock
+                        align={data.align}
+                        title={data.title}
+                        description={data.description}
+                        content={data.content}
+                    />
+                ))}
             </section>
             
         </div>

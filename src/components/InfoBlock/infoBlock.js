@@ -9,10 +9,13 @@ const InfoBlock = ({ title, description, content, align, ...props }) => {
     const alignClass = align ? defaultClasses[`align-${align}`] : '';
 
     return (
-        <div className={defaultClasses.root}>
+        <div className={`
+            ${defaultClasses.root}
+            ${alignClass}
+        `}>
             <div className={`
                 ${defaultClasses.titleContainer}
-                ${alignClass}
+                
             `}>
                 <Typography variant='title' color='primary' classes={defaultClasses.title} underline>
                     { title }
@@ -23,6 +26,8 @@ const InfoBlock = ({ title, description, content, align, ...props }) => {
             <Typography variant='body4' secondary classes={defaultClasses.description}>
                 { description }
             </Typography>
+
+            { content }
         </div>
     )
 }

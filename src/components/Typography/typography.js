@@ -15,7 +15,7 @@ const variantsMapping = {
     body4: 'p'
 };
 
-const Typography = ({ variant, classes, color, children, secondary, spacing, underline, ...props}) => {
+const Typography = ({ variant, classes, color, children, secondary, spacing, ...props}) => {
     const Component = variant ? variantsMapping[variant] : 'p';
     const variantClass = variant ? defaultClasses[`variant-${variant}`] : null;
     const colorClass = color ? defaultClasses[`color-${color}`] : null;

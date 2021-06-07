@@ -1,4 +1,21 @@
 .root {
+    display: flex;
+    flex-direction: column;
+
+    &.align {
+        &-left {
+            align-items: flex-start;
+        }
+
+        &-center {
+            align-items: center;
+        }
+
+        &-right {
+            align-items: flex-end;
+        }
+    }
+
     .title, .titleContainer {
         display: inline-block;
     }
@@ -12,18 +29,4 @@
             transparent
         );
     }
-
-    // .align {
-    //     &-left {
-    //         margin-right: auto;
-    //     }
-
-    //     &-center {
-    //         margin: 0 auto;
-    //     }
-
-    //     &-right {
-    //         margin-left: auto;
-    //     }
-    // }
 }
